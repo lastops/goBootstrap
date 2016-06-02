@@ -1,0 +1,2 @@
+# goBootstrap
+Golang project layout
