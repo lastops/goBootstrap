@@ -1,0 +1,57 @@
+# Compiled Object files, Static and Dynamic libs (Shared Objects)
+*.o
+*.a
+*.so
+
+# Folders
+_obj
+_test
+bin
+pkg
+src/*
+!src/heartbeat
+tmp/*
+debian/*.log
+debian/tmp
+debian/heartbeat
+obj-x86_64-linux-gnu
+.pc/*
+
+# Architecture specific extensions/prefixes
+*.[568vq]
+[568vq].out
+
+*.cgo1.go
+*.cgo2.c
+_cgo_defun.c
+_cgo_gotypes.go
+_cgo_export.*
+
+_testmain.go
+
+*.exe
+*.test
+*.prof
+
+# Go workspace flag
+.gows
+
+# Config file
+config.ini
+
+# vim-go dependancies
+.godeps/src/github.com/golang/
+.godeps/src/github.com/jstemmer/
+.godeps/src/github.com/kisielk/
+.godeps/src/github.com/nsf/
+.godeps/src/github.com/rogpeppe/
+.godeps/src/golang.org/
+.godeps/src/9fans.net/
+
+# Build stuff
+debian/debhelper-build-stamp
+debian/files
+debian/interface-ptr-generator.substvars
+debian/interface-ptr-generator/*
+
+
